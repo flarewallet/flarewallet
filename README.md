@@ -30,6 +30,9 @@ There is no account, no server and no recovery desk. That is the point, and it i
 
 | Need | Repository | Start with |
 | --- | --- | --- |
+| Install, update, back up or log in | [flare-wallet-guide](https://github.com/flarewallet/flare-wallet-guide) | [Flare Wallet download](https://github.com/flarewallet/flare-wallet-guide/blob/HEAD/flare-wallet-download.md) |
+| Stake, delegate or hold FXRP | [flare-wallet-staking](https://github.com/flarewallet/flare-wallet-staking) | [Flare Wallet staking](https://github.com/flarewallet/flare-wallet-staking/blob/HEAD/flare-wallet-staking.md) |
+| Check safety, scams or a sync fault | [flare-wallet-security](https://github.com/flarewallet/flare-wallet-security) | [is Flare Wallet safe](https://github.com/flarewallet/flare-wallet-security/blob/HEAD/is-flare-wallet-safe.md) |
 | Install it and check the file | [flare-desktop-wallet](https://github.com/flarewallet/flare-desktop-wallet) | The release table and the SHA-256 list |
 | See how the interface was assembled | [flare-viem-starter](https://github.com/flarewallet/flare-viem-starter) | A three-file Vue shell |
 | Understand XRP-side account setup | [fdc-client](https://github.com/flarewallet/fdc-client) | The Flexrp setup tool and its warning |
@@ -66,6 +69,9 @@ Because they are. Several were forked from unrelated upstream code and kept unde
 - [fdc-client](https://github.com/flarewallet/fdc-client) carries Flexrp, the 2020-2021 desktop tool that set up an XRP account for the Spark distribution, by Dev Null Productions.
 - [flare-systems-deployment](https://github.com/flarewallet/flare-systems-deployment) holds the `blks` transaction streamer, which streams XRP, Stellar and VeChain transactions to a callback.
 - [flare-smart-accounts](https://github.com/flarewallet/flare-smart-accounts) holds `ezxlm`, a tested Stellar data structure helper rather than Flare account abstraction.
+- [flare-wallet-guide](https://github.com/flarewallet/flare-wallet-guide) holds eight pages on install, requirements, update, backup, login, uninstall and the passphrase question.
+- [flare-wallet-staking](https://github.com/flarewallet/flare-wallet-staking) holds seven pages on staking, delegation, WFLR, FXRP, claim timing, network settings and addresses.
+- [flare-wallet-security](https://github.com/flarewallet/flare-wallet-security) holds six pages on safety, scam shapes, Ledger, sync failures, support and how it compares.
 - [tx-verifier](https://github.com/flarewallet/tx-verifier) holds `vue-xrp-waterfall`, a Vue component that renders live XRP transactions, under the MIT licence.
 
 Flare Wallet is independent of Flare Foundation, Flare Labs and Ava Labs. The desktop source is distributed under the BSD 3-Clause licence published in its `LICENSE.md`, which names Ava Labs, Inc. as the copyright holder. Flare, FLR, WFLR, FXRP, FAssets and FTSO are referenced to describe compatibility only.
